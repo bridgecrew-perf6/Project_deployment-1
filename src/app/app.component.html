@@ -8,7 +8,7 @@
            type="button"
             data-bs-toggle="collapse"
              data-bs-target="#navbarcnt"
-              aria-controls="navbarSupportedContent"
+              aria-controls="navbarcnt"
                aria-label="Toggle navigation "
                 onclick="this.classList.toggle('opened');this.setAttribute('aria-expanded', this.classList.contains('opened'))"
                  aria-expanded="false" >
@@ -23,7 +23,7 @@
     <div class="collapse navbar-collapse" id="navbarcnt">
       
       <div class="container-fluid ">
-        <a class="navbar-brand" href="#">
+        <a class="navbar-brand" href="home">
           <img src="https://clipground.com/images/hospital-logo-clipart-1.jpg" alt="" width="50px"> 
           
           <span id="HNAME" class="">Sahasra<span id="p2">Hospitals</span></span>
@@ -33,19 +33,15 @@
         <div class="collapse navbar-collapse " id="navbarcnt">
           <ul class="navbar-nav  ms-auto  mb-lg-0 ">
             <li class="nav-item ">
-              <a class="nav-link d-flex flex-column" routerLink="home" routerLinkActive="active">
-                <span class="d-block mx-auto"><i class="fas fa-home"></i></span>
+              <a class="nav-link d-flex flex-column d-block mx-auto" routerLink="home" routerLinkActive="active">
+                <span class="d-block mx-auto">
+                  <i class="fas fa-home"></i>
+                </span>
                 <span id="names" class="text-center mt-3">Home</span>
               </a>
             </li>
 
-            <!-- DOCTORS -->
-            <li class="nav-item ">
-              <a class="nav-link d-flex flex-column" routerLink="drslist" routerLinkActive="active">
-                <span class="d-block mx-auto"><i class="fas fa-user-md"></i></span>
-                <span id="names" class="text-center mt-3">Doctors</span>
-              </a>
-            </li>
+        
             
             <!-- LOGIN -->
             <li class="nav-item ">
@@ -70,7 +66,7 @@
       </div>
       </div>
     </nav>
-  </div> 
+  <!-- </div>  -->
   
   
 

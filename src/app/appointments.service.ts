@@ -9,12 +9,15 @@ import { Appointment } from './MODEL/Appointment';
 })
 export class AppointmentsService {
 
+
+
   private BASE_URL = environment.API_URL;
   constructor(private http:HttpClient) { }
 
 getAppointments(): Observable<Appointment[]> {
   return this.http.get<Appointment[]>(`${this.BASE_URL}/appointments`)
 }
+
 
 createAppointment(appointmentDate: string, name: string, email: string): Observable<Appointment> {
   return this.http.post<Appointment>(`${this.BASE_URL}/appointments`,

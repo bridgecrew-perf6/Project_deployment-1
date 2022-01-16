@@ -10,20 +10,20 @@ export class PediatricianComponent  {
   pediatrician=[
 
     {
-    drTitle:"Dr. Naresh Trehan",
+    drTitle:"Dr. Omkar Nath Bhakoo",
     description:"Pediatrician for children",
-    drImage:"https://d2cyt36b7wnvt9.cloudfront.net/exams/wp-content/uploads/2017/01/05133850/Dr.-Myles.-B.-Abbot.png"
+    drImage:"https://images.indianexpress.com/2016/07/bhook-759.jpg"
     },
     {
-      drTitle:"Dr. Khalid Abbed",
+      drTitle:"Dr. R.N.Srivastava",
     description:"Pediatrician for women",
-    drImage:"https://d2cyt36b7wnvt9.cloudfront.net/exams/wp-content/uploads/2017/01/05133453/Dr.-Khalid.png"
+    drImage:"https://gumlet.assettype.com/thenewsagency%2F2021-07%2F1f604845-64a1-40c9-9b16-0dcfb1afbfe5%2FWhatsApp_Image_2021_07_15_at_6_51_27_PM.jpeg?rect=0%2C63%2C1024%2C576&w=1200&auto=format%2Ccompress&ogImage=true"
     },
     
     {
-      drTitle:"Dr. Mark. F. Aaron",
+      drTitle:"Dr. Rashid Merchant",
     description:"Pediatrician ",
-    drImage:"https://d2cyt36b7wnvt9.cloudfront.net/exams/wp-content/uploads/2017/01/05043715/DR.-MARK.-F.-AARON.jpg"
+    drImage:"https://www.nanavatimaxhospital.org/controlpanel/uploadedfiles/gallery/1566556915_Dr.-Rashid-H-Merchant---Nanavati-Hospital.jpg"
     }
     
     

@@ -1,6 +1,6 @@
 li{
     background-color: #d81b60;
-    
+    border-radius: 10em;
 }
 
 li a{
@@ -15,5 +15,17 @@ active{
 .active.nav-link{
     background-color:white;
     color:#d81b60;
-    box-shadow: 3px 3px 3px #d81b60;
+    font-weight: bold;
+    border-radius: 10em;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
+.gradient-custom-3 {
+    /* fallback for old browsers */
+    background: #84fab0;
+  
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: -webkit-linear-gradient(to right, rgba(132, 250, 176, 0.5), rgba(143, 211, 244, 0.5));
+  
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background: linear-gradient(to right, rgba(132, 250, 176, 0.5), rgba(143, 211, 244, 0.5))
+  }
