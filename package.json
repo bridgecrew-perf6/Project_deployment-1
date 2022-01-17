@@ -3,8 +3,8 @@
   "version": "0.0.0",
   "scripts": {
     "ng": "ng",
-    "start": " --openssl-legacy-provider node server.js",
-    "build": " --openssl-legacy-provider ng build",
+    "start": "node server.js",
+    "build": "ng build",
     "watch": "ng build --watch --configuration development",
     "test": "ng test",
     "heroku-postbuild": "ng build --prod"
